@@ -1,6 +1,6 @@
 <html>
 <body>
-   <h1>Hello world from Github in a PHP file!!</h1>
+   <h1>Hello world from the <?php echo getenv("Env") ?> slot</h1>
    <ul>
       <li>Slot message:  <?php echo getenv("slotMessage"); ?></li>
       <li>Api key:  <?php echo getenv("apiKey"); ?></li>
