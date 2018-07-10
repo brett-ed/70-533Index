@@ -9,5 +9,14 @@
    </ul>
    
    <h1><b>This change was synched to staging and then <i>auto-swapped</i> to production.</b></h1>
+   
+   <h1>Now, a PostDeploymentAction script has been set by :</h1>
+   <ul> 
+      <li>accessing kudu (via the .scm.  url extension.</li>
+      <li>Accessing the Debug Console menu, choosing CMD</li>
+      <li>Drill down to Site/deployments/tools</li>
+      <li>Create a new folder called PostDeploymentActions</li>
+      <li>Add any powershell scripts that should be run after a successful deploy.</li>
+   </ul>
 </body>
 </html>
